@@ -1,4 +1,5 @@
-import button from "./assets/components/Button"
+import button from "./components/Button"
+import Hero from "./sections/Hero"
 
 
 function App() {
@@ -6,8 +7,7 @@ function App() {
 let nombre = "dulce"
   return (
     <>
-     <Hero nombre={nombre}/>
-  
+  <Hero/>
     </>
   )
 }
