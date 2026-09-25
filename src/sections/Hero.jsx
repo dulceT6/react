@@ -17,7 +17,7 @@ function Hero (){
     <img src="./61u7rrwk3sL.jpg" alt="telecaster deluxe" width="400"/>
     <p>me gusta esta guitarra por su versatilidad sonora y su simpleza  </p>
     <h2>top 4-Gibson Les Paul</h2>
-    <img  src="gibson-les-paul-standard-60s-bb-thm462510-w900" alt="Gibson Les Paul" width="400"/> 
+    <img  src="/gibson.webp" alt="Gibson Les Paul" width="400"/> 
     </>
     )
 }
