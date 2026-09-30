@@ -1,8 +1,8 @@
-function button ({onClick, textButton}){
+function Button ({onClick, textButton}){
 
 return  (
   <button onClick ={onClick}>{textButton}</button>
 )
 
 }
-export default button
+export default Button

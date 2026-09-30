@@ -1,5 +1,7 @@
-import button from "./components/Button"
-import Hero from "./sections/Hero"
+
+import "./App.css"; 
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
 let nombre = "dulce"
   return (
     <>
+  <Navbar/>
   <Hero/>
     </>
   )

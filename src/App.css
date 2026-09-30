@@ -1,1 +1,43 @@
- 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Fondo oscuro que contrasta con el amarillo */
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar h2 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex;    /* Pone los enlaces uno al lado del otro */
+  gap: 20px;        /* Espacio entre los botones */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none; /* Elimina el subrayado de los links */
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ffde71; /* Cambia a tono amarillo al pasar el cursor */
+}                                                                                                                                                                                                                                              
+
+ .hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
